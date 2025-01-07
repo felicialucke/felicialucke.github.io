@@ -1,0 +1,167 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*
+div[class="row"] {
+    outline: 1px dotted rgba(0, 0, 0, 0.25);
+}
+div[class^="col-"] {
+    background-color: rgba(255, 0, 0, 0.2);
+    outline: 1px dotted rgba(0, 0, 0, 0.5);
+}
+*/
+
+.header {
+	background-size: cover;
+	background-position: /*top 32%*/ center;
+	/*background-image: url("Sarine.JPG");*/
+	/*background-image: url("Aletsch 107.JPG");*/
+	background-image: url("Grimselpass 035.JPG");
+	background-color: #6388b9;
+	min-height: 200px;
+
+	position: relative;
+
+}
+
+.container{
+	position: absolute;
+	margin: 20px;
+	width: auto;
+}
+
+.topnav{
+	overflow: hidden;
+	background-color: #333;
+	font-family:sans-serif;
+	padding:5px;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav-centered a {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+
+body a {
+	text-decoration: none;
+	color: #217539;
+}
+
+coontent a:visited {
+	text-decoration: none;
+}
+
+coontent a:hover {
+	text-decoration: underline;
+	color: #217539;
+
+}
+
+coontent a:active {
+	text-decoration: none;
+	color: #217539;
+}
+
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.logo, .titlecontainer {
+	display: inline-block;
+	float: right;
+	image: url("logo1.JPG");
+	height: 100px;
+	margin: 20px;
+	margin-top: 150px;
+}
+
+.titlecontainer {
+	white-space: nowrap;
+	/* Do not hide this from screen readers */
+	text-indent: -10000px;
+}
+
+.container-fluid{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+
+
+ul{
+	margin-left: 20px;
+
+}
+
+
+div.li{
+	text-align: center;
+}
+
+
+th, td{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+
+footer {
+	margin-top: auto;
+	bottom: 0;
+	/*position: fixed;*/
+	position: static;
+	z-index: 1030;
+	height: 70px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.footertext {
+	/*padding: 50px 0 0 20px;*/
+	margin-left: 20px;
+	/*margin-top: 10px;*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+footer img {
+	height: 20px;
+
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+}
